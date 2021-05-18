@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>SemTv</title>
+    <!-- META TAGS -->
+    <meta charset="UTF-8">
+
+
+      <script src="libs/js/jquery.clikix.lib.3.5.1.js"></script>
+      <script src="libs/js/saveFile.clikix.lib.1.0.js"></script>
+
+  </head>
+
+  <body>
+
+
+    <html lang="en">
+
+    <head>
+      <meta name="a.validate.01" content="9be19162327b2816533c8a65da83f7bd8eee" />
+      <title>SemDev Online Tv</title>
+      <!-- META TAGS -->
+    </head>
+
+    <body>
+      <script type="text/javascript" data-adel="atag" src="//acdcdn.com/script/atg.js"
+      czid="war4acba"></script>
+      <metaâ charset="utf-8">
+        <link rel="icon" href="ICON URL HERE!">
+        <meta name="keyboards" content="Keywords , HERE">
+        <meta name="description" content="Cartoons Everyday">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <meta name="theme-color" content="Black">
+        <meta name="msapplication-navbutton-color" content="">
+        <meta name="apple-mobile-web-app-status-bar-style" content="">
+        <meta property="og:type" _content="website">
+        <meta property="og:url" _content="Your website URL">
+        <meta property="og:title" _content="Website Title">
+        <meta property="og:description" _content="Website Description">
+        <meta property="og:image" _content="Website Image Url">
+        <meta property="twitter:card" _content="summary_large_image">
+        <meta property="twitter:url" _content="Website URL">
+        <meta property="twitter:title" _content="Website title">
+        <meta property="twitter:description" _content="Website description">
+        <meta property="twitter:image" _content="Website Image Url">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SEM TV</title>
+        <!-- HTML -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+        rel="stylesheet">
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="style.css">
+        <style>
+          *{
+        margin:0;
+        padding:0;    
+        font-size: 15pt;
+        font-family: 'Montserrat',sans-serif;
+      }
+      
+      
+      nav{
+        position: fixed;
+        width:100%;
+        text-align: center;
+        background: rgba(0,0,0,1);
+        padding-top:20px;
+        padding-bottom:20px;
+        z-index:1;
+      }
+      
+      nav p{
+        color:white;
+        text-transform: uppercase;
+      }
+      
+      nav p span{
+        color:#FF7700;
+      }
+      
+      
+      .sem {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        background: url('Onair.png');
+        background-size:400px;
+        text-align:center;
+        z-index:-1;
+      }
+      
+      .sem p, .sem .showname, .sem .date{
+        position:relative;
+        top:40%;
+      }
+      
+      
+      .sem p{
+        color:white;
+        text-transform: uppercase;
+      
+      }
+      
+      .showname{
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #FF7700;
+        font-size:35px;
+        text-shadow:0 0 10px #ff7700;
+      }
+      
+      .date{
+        font-size: 12px;
+        color: white;
+        margin-top: 10px;
+      }
+      
+      .email{
+        display:flex;
+        background:#383838;
+        padding:10px;
+        border-radius:50px;
+        float:right;
+        margin:15px;
+        box-shadow : 0 0 10px rgba(0,0,0,0.5);
+      }
+      
+      .email img{
+        width:35px;
+        height:35px;
+        
+      }
+      
+      
+      .email p{
+        background: transparent;
+        border:none;
+        outline:none;
+        color: white;
+        font-size:15px;
+        margin:10px;
+        display:none;
+      }
+      
+      .email p span{
+        font-size:15px;
+        font-weight:400;
+        color:#ff7700;
+      }
+      
+      .email p.active{
+        display:block;
+      }
+      
+      .psec{
+        width:100%;
+        height:300px;
+        text-align: center;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+      }
+      
+      .psec img{
+        width:45px;
+        border: 2px solid black;
+        border-radius:50%;
+        padding:15px;
+        text-align: center;
+        transition:.5s;
+      }
+      
+      .concl {
+        font-size: 20px;
+        background: #070707;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      
+      }
+      
+      .concl li {
+        list-style: none;
+        margin-top: 10px;
+        color: white;
+        font-weight: 300;
+        font-size:15px;
+      }
+      
+      .concl h3 {
+        color: white;
+        font-size:18px;
+      }
+      
+      .concl p {
+        margin-top: 25px;
+        background: none;
+        border: 2px solid white;
+        color: white;
+        margin-right: 35%;
+        margin-left: 35%;
+        padding: 10px;
+        border-radius: 10px;
+        transition: .5s;
+        font-size:17px;
+      }
+      
+      .concl p:hover {
+        background-color: white;
+        color: black;
+      }
+      
+      .concl input {
+        width: 200px;
+        height: 20px;
+        outline: none;
+        border: none;
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+        
+      }
+      
+      .concl ul {
+        word-spacing: 10px;
+        border-bottom: 1px solid #606060;
+        margin-right: 15%;
+        margin-left: 15%;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+      
+      }
+      
+      .concl .h3 {
+        margin-top: 50px;
+      }
+      
+      .concl h4 {
+        color: #5E5E5E;
+        font-weight: 300;
+        font-size:15px;
+      }
+      
+      marquee{
+        color:white;
+        background: black;
+        padding:10px;
+        box-shadow: 0 3px 5px rgba(0,0,0,0.5);
+        font-size:15px;
+      }
+        </style>
+        <header>
+          <nav>
+            <p>
+              <span>SEM</span> TV</p>
+          </nav>
+          <div class="sem">
+            <p>Sem</p>
+            <br>
+            <h3 class="showname">Cartoons Show</h3>
+            <h3 class="date"></h3>
+          </div>
+        </header>
+        <marquee>
+          We are wishing a Happy New Year in advance. Join us everyday for a wonderful New
+          Year experience, with awesome shows.
+        </marquee>
+        <div class="email">
+          <p class="p">
+            <span>Live now: </span> Cartoons Channel.</p>
+          <img onclick="show()" src="testic.png" alt="" width="30px">
+        </div>
+        <div class="psec">
+          <iframe src="https://cdn.jwplayer.com/players/iTEdsigD-qvEImS5u.html?autoplay=1"
+          allowfullscreen framespacing="0" scrolling="no" allowtransparency="true"
+          width="800" height="450" frameborder="no">
+            <br /> </iframe>
+          <script type="text/javascript" data-adel="atag" src="//acdcdn.com/script/atg.js"
+          czid="war4acba"></script>
+        </div>
+        <footer>
+          <div class="concl">
+            <h3>Email Us</h3>
+            <input type="text">
+            <p>Submit</p>
+            <h3 class="h3">Contact Us</h3>
+            <ul>
+              <li>+233574495667</li>
+              <li>+233269178053</li>
+            </ul>
+            <h4>Designed by SemDev Studio</h4>
+          </div>
+        </footer>
+        <script src="main.js">
+          var d = new Date();
+          var weekday = new Array(7);
+          weekday[0] = "Sunday";
+          weekday[1] = "Monday";
+          weekday[2] = "Tuesday";
+          weekday[3] = "Wednesday";
+          weekday[4] = "Thursday";
+          weekday[5] = "Friday";
+          weekday[6] = "Saturday";
+          var n = weekday[d.getDay()];
+
+
+          var days = new Array(31);
+          days[1] = "1st";
+          days[2] = "2nd";
+          days[3] = "3rd";
+          days[4] = "4th";
+          days[5] = "5th";
+          days[6] = "6th";
+          days[7] = "7th";
+          days[8] = "8th";
+          days[9] = "9th";
+          days[10] = "10th";
+          days[11] = "11th";
+          days[12] = "12th";
+          days[13] = "13th";
+          days[14] = "14th";
+          days[15] = "15th";
+          days[16] = "16th";
+          days[17] = "17th";
+          days[18] = "18th";
+          days[19] = "19th";
+          days[20] = "20th";
+          days[21] = "21st";
+          days[22] = "22nd";
+          days[23] = "23rd";
+          days[24] = "24th";
+          days[25] = "25th";
+          days[26] = "26th";
+          days[27] = "27th";
+          days[28] = "28th";
+          days[29] = "29th";
+          days[30] = "30th";
+          days[31] = "31st";
+
+
+          var month = new Array(12);
+          month[1] = "January";
+          month[2] = "February";
+          month[3] = "March";
+          month[4] = "April";
+          month[5] = "May";
+          month[6] = "June";
+          month[7] = "July";
+          month[8] = "August";
+          month[9] = "September";
+          month[10] = "October";
+          month[11] = "November";
+          month[12] = "December";
+
+
+
+
+          document.querySelector(".date").textContent = n + "," + " " + days[
+              d.getDate()] +
+            " " + "of" + " " + month[d.getMonth() + 1] + "," + " " + d.getFullYear();
+
+          function show()
+          {
+            document.querySelector(".p").classList.toggle("active");
+          }
+        </script>
+      </metaâ charset="utf-8">
+    </body>
+
+    </html>
+
+
+
+
+  </body>
+
+</html>
