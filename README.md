@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Daniel Sem
-- 👀 I’m interested in Creating Android Apps, Animations and Games.
-- 🌱 I’m currently learning Html & Css and Java.
+- 👀 I’m an Android Developer, Animations and Games Developer.
+- 🌱 I’m also having a 5 years of experience in Html & Css and Javascript for Website Development.
 - 💞️ I’m looking to collaborate on making Android apps and Games.
 - 📫 How to reach me: Email: danielsem65@gmail.com
 
